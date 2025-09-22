@@ -13,7 +13,7 @@ from user.infra.repository.user_repo import UserRepository
 
 class Container(containers.DeclarativeContainer):
     wiring_config = containers.WiringConfiguration(
-        package=["user"]
+        packages=["user"]
     )
 
     user_repo = providers.Factory(UserRepository)

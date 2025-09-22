@@ -165,3 +165,5 @@ Thumbs.db
 
 # FastAPI specific
 .pytest_cache/
+
+docs/
