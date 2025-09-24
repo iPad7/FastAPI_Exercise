@@ -66,6 +66,9 @@ class UserService:
 
         return users
     
+    def delete_user(self, user_id: str):
+        self.user_repo.delete(user_id)
+    
 
     # def __init__(self):
     #     self.user_repo: IUserRepository = UserRepository()

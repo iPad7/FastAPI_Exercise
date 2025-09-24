@@ -6,3 +6,4 @@ sqlalchemy
 mysqlclient
 alembic
 dependency-injector
+pydantic[email]
